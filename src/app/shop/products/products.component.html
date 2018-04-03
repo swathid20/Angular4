@@ -1,0 +1,10 @@
+<p>
+  products works!
+ List of products: {{products}}
+</p>
+
+<ul>
+  <li *ngFor="let p of products; let counter= index" (click)="giftme(counter)">
+{{counter}} {{p}}
+  </li>
+</ul>

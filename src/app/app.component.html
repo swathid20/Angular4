@@ -1,0 +1,29 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <div id="heading">
+  <h1>
+   AngularJs {{ title | lowercase }}!
+  </h1>
+  <div>
+
+
+  <h4>
+    {{name}} is learning angular
+  </h4>
+  <h5>
+    Numberaddition
+  </h5>
+  {{num1+num2 | currency:'INR'}}
+<h1>current date:{{displayDate()}}</h1>
+we are from family component
+
+  shop:
+  <a routerLink="/catalog">Catalog</a>
+  <a routerLink="/products">Products</a>
+  <a routerLink="/todo">Task</a>
+  <a routerLink="/remote">RemoteCall</a>
+  <router-outlet></router-outlet>
+</div>
+</div>
+
+
